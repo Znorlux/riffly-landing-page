@@ -75,7 +75,7 @@ const Home = () => {
           <div className="intro-col">
             <p>La revolución musical está aquí.</p>
             <h2>
-              Tu Estudio <br /> En La Nube
+              Tu Estudio <br /> En La <span className="color-accent">Nube</span>
             </h2>
             <h3>Convierte tus ideas en canciones profesionales en minutos.</h3>
             <p>
