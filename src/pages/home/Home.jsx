@@ -39,58 +39,60 @@ const Home = () => {
       <div className="page home">
         <section className="hero">
           <div className="hero-img">
-            <ParallaxImage src="/home/hero.jpg" alt="" />
+            <ParallaxImage src="/home/hero.jpg" alt="Músicos creando con IA" />
           </div>
 
           <div className="hero-header">
             <h1>Riffly AI</h1>
-            <p>Transforma tu música con inteligencia artificial</p>
-            {/* <div className="stickers">
-              <img src="/stickers.png" alt="" />
-            </div> */}
+            <p>Crea música increíble con IA y compártela con el mundo</p>
             <button>
-              <Link to="/contact">Empezar ahora</Link>
+              <Link to="/create">Crear mi primera canción</Link>
             </button>
           </div>
 
           <div className="news-article">
             <div className="news-article-title">
               <p className="primary">
-                AI Disputes Ignite: Harmony <br /> or Discord Ahead?
+                Lanzamiento: Nueva función <br /> de colaboración musical
               </p>
             </div>
             <div className="news-article-info">
-              <p>7.1.2024</p>
-              <p>News</p>
+              <p>Nuevo</p>
+              <p>Comunidad</p>
             </div>
           </div>
         </section>
 
         <section className="site-intro">
           <div className="intro-col">
-            <p className="primary">Empowering Creativity. Redefining Sound.</p>
-            <p>Shaping the Future of Music with AI</p>
+            <p className="primary">
+              Música sin límites. Creatividad sin barreras.
+            </p>
+            <p>Genera, colabora y comparte tu música</p>
 
             <MusicPlayer />
           </div>
           <div className="intro-col">
-            <p>The music industry stands at a pivotal crossroads.</p>
+            <p>La revolución musical está aquí.</p>
             <h2>
-              A New <br /> Gold Tech
+              Tu Estudio <br /> En La Nube
             </h2>
-            <h3>Innovation thrives, but artists are left behind.</h3>
+            <h3>Convierte tus ideas en canciones profesionales en minutos.</h3>
             <p>
-              AI is reshaping the landscape, leveraging the art we’ve poured our
-              souls into—often without recognition or consent. At Balanced
-              Pitch, we believe in harnessing AI's potential while fiercely
-              protecting the artists at its heart. By collaborating with
-              educators, legal pioneers, and industry leaders, we are building a
-              future where creativity is respected, and artists’ rights are
-              safeguarded.
+              Riffly AI te permite crear música de calidad profesional usando
+              inteligencia artificial de vanguardia. Desde crear beats hasta
+              componer melodías o generar letras, nuestra plataforma te da todas
+              las herramientas que necesitas para expresar tu creatividad.
+              Comparte tus creaciones, colabora con otros artistas y forma parte
+              de una comunidad global de músicos que están redefiniendo el
+              futuro de la música.
             </p>
             <div className="intro-img">
               <div className="intro-img-wrapper">
-                <ParallaxImage src="/home/site-intro.jpg" alt="" />
+                <ParallaxImage
+                  src="/home/site-intro.jpg"
+                  alt="Estudio de música virtual"
+                />
               </div>
             </div>
           </div>
@@ -98,43 +100,40 @@ const Home = () => {
 
         <section className="cover">
           <div className="cover-img">
-            <ParallaxImage src="/home/cover.jpg" alt="" />
+            <ParallaxImage src="/home/cover.jpg" alt="Comunidad de músicos" />
           </div>
 
           <div className="cover-copy">
-            <h3>Committed For</h3>
-            <h2>Creative AI</h2>
+            <h3>Únete a la</h3>
+            <h2>Comunidad Riffly</h2>
             <p>
-              Balanced Pitch stands as a voice for artists, ensuring their
-              creative legacy is valued and protected in an AI-driven world. Our
-              mission is to establish a fair and respectful integration of
-              artificial intelligence within the music industry, honoring the
-              work and rights of creators at every step.
+              Conecta con miles de creadores musicales de todo el mundo.
+              Comparte tus creaciones, recibe feedback, colabora en proyectos y
+              aprende de otros artistas con los mismos intereses que tú.
             </p>
             <br />
             <br />
             <p>
-              By working with educators, legal specialists, industry innovators,
-              and policymakers, we are driving the creation of ethical standards
-              and advocating for robust policies that safeguard the future of
-              artistry in the age of AI.
+              Participa en retos semanales, eventos exclusivos y sesiones de
+              colaboración en tiempo real. En Riffly, no solo creamos música -
+              construimos conexiones y experiencias memorables.
             </p>
 
             <div className="cover-cta">
               <button>
-                <Link to="/">Our Mission</Link>
+                <Link to="/community">Explorar Comunidad</Link>
               </button>
             </div>
           </div>
         </section>
 
         <section className="mix-tape">
-          <p className="primary">Responsible AI in Academia</p>
-          <p>Balanced Pitch</p>
+          <p className="primary">Potencia tu creatividad</p>
+          <p>Herramientas de IA</p>
 
           <h1>
-            From Innovation <br />
-            To Iconic
+            De la Idea <br />
+            Al Éxito
           </h1>
 
           <div className="tape">
@@ -148,17 +147,16 @@ const Home = () => {
 
           <div className="tape-info">
             <p>
-              The next generation of data scientists and music creators is
-              shaping the AI technologies that will define the future of the
-              music industry.
+              Nuestros modelos de IA están entrenados con millones de canciones
+              para ayudarte a crear música única que refleje tu estilo personal.
             </p>
             <br />
             <br />
             <p>
-              Balanced Pitch collaborates with universities and their music
-              programs to promote awareness and establish ethical AI practices.
-              We also offer opportunities for aspiring artists and data
-              engineers to innovate and thrive in the evolving music landscape.
+              Genera melodías, armonías, ritmos, letras y arreglos con un solo
+              clic. Ajusta cada elemento hasta que suene exactamente como lo
+              imaginas. Riffly hace que el proceso creativo sea más rápido y
+              divertido, sin importar tu nivel de experiencia musical.
             </p>
 
             <div className="sticker">
@@ -168,46 +166,55 @@ const Home = () => {
         </section>
 
         <section className="latest-updates">
-          <h1>Latest Updates</h1>
+          <h1>Éxitos de la Comunidad</h1>
           <p className="lp-tagline">
-            Explore the latest updates, comprehensive guidelines, and valuable
-            resources at the crossroads of AI innovation and the music industry.
+            Descubre las mejores creaciones de nuestra comunidad y déjate
+            inspirar por el talento de los artistas Riffly.
           </p>
 
           <div className="updates-page-link">
-            <Link to="/">View All Updates</Link>
+            <Link to="/trending">Ver Tendencias</Link>
           </div>
 
           <div className="articles-row">
             <div className="article">
               <div className="article-img">
-                <ParallaxImage src="/updates/article1.jpg" alt="" speed={0.1} />
+                <ParallaxImage
+                  src="/updates/article1.jpg"
+                  alt="Canción destacada"
+                  speed={0.1}
+                />
               </div>
               <div className="article-title">
                 <h3>
-                  The Fight for Authenticity: Tackling Unauthorized AI-Generated
-                  Voices
+                  "Summer Nights" de @laura_music alcanza 10,000 reproducciones
+                  en solo 48 horas
                 </h3>
               </div>
               <div className="article-link">
                 <p className="primary">
-                  <Link to="/">Read More</Link>
+                  <Link to="/trending/summer-nights">Escuchar ahora</Link>
                 </p>
               </div>
             </div>
 
             <div className="article">
               <div className="article-img">
-                <ParallaxImage src="/updates/article2.jpg" alt="" speed={0.1} />
+                <ParallaxImage
+                  src="/updates/article2.jpg"
+                  alt="Colaboración musical"
+                  speed={0.1}
+                />
               </div>
               <div className="article-title">
                 <h3>
-                  Protecting Iconic Voices: The Struggle Against AI Imitation
+                  La colaboración entre @beatmaker y @vocalguru está
+                  revolucionando el género electrónico
                 </h3>
               </div>
               <div className="article-link">
                 <p className="primary">
-                  <Link to="/">Read More</Link>
+                  <Link to="/trending/electro-revolution">Escuchar ahora</Link>
                 </p>
               </div>
             </div>
