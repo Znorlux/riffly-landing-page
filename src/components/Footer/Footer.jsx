@@ -7,9 +7,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-bg">
-        <ParallaxImage src="/footer/footer.jpg" alt="" />
-      </div>
+      {/*<div className="footer-bg">
+        <ParallaxImage src="/home/hero-org.jpg" alt="" />
+      </div>*/}
 
       <div className="footer-nav">
         <div className="footer-nav-link">
