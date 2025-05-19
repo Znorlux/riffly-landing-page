@@ -13,59 +13,62 @@ const Footer = () => {
 
       <div className="footer-nav">
         <div className="footer-nav-link">
-          <Link to="/about">About</Link>
+          <Link to="/about">Nosotros</Link>
         </div>
         <div className="footer-nav-link">
-          <Link to="/solutions">Solutions</Link>
+          <Link to="/solutions">Soluciones</Link>
         </div>
         <div className="footer-nav-link">
-          <Link to="/updates">Updates</Link>
+          <Link to="/updates">Actualizaciones</Link>
         </div>
         <div className="footer-nav-link">
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact">Contacto</Link>
         </div>
       </div>
 
       <div className="footer-outro">
         <div className="footer-col">
-          <p>Have Questions?</p>
-          <h3>Get in Touch</h3>
+          <p>¿Necesitas ayuda?</p>
+          <h3>Contáctanos</h3>
           <p className="primary">
-            Info@balancedpitch.com <br />
-            LinkedIn / Careers
+            soporte@riffly.com <br />
+            @RifflyMusic
           </p>
-          <p>© 2024 Balanced Pitch</p>
+          <p>© 2024 Riffly AI</p>
         </div>
         <div className="footer-col">
-          <p>Planning a Visit?</p>
-          <h3>Our Location</h3>
+          <p>¿Quieres saber más?</p>
+          <h3>Comunidad</h3>
           <p className="primary">
-            123 Harmony Lane <br />
-            Los Angeles, CA 90210, USA
+            Únete a miles de músicos <br />
+            creando con Riffly
           </p>
-          <p>Designed by Codegrid</p>
+          <p>Diseñado con 💛 por Grupo Koyso</p>
         </div>
       </div>
 
       <div className="footer-form">
-        <p className="primary">Make Your Voice Heard!</p>
-        <p>Stand for Ethical AI in Music</p>
+        <p className="primary">¡Únete a la revolución musical!</p>
+        <p>Crea música increíble con IA</p>
 
-        <span>Join our movement to protect and empower music creators.</span>
+        <span>
+          Suscríbete para recibir actualizaciones, consejos y acceso anticipado
+          a nuevas funciones.
+        </span>
 
         <div className="footer-ws"></div>
 
         <div className="footer-input">
-          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Nombre" />
         </div>
         <div className="footer-input">
-          <input type="text" placeholder="Last Name" />
+          <input type="text" placeholder="Apellido" />
         </div>
         <div className="footer-input">
-          <input type="text" placeholder="Email Address" />
+          <input type="text" placeholder="Correo electrónico" />
         </div>
         <div className="footer-submit">
-          <Link to="/">Submit</Link>
+          <Link to="/">Suscribirse</Link>
         </div>
       </div>
     </div>
