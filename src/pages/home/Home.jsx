@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import Transition from "../../components/transition/Transition";
 import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
 import MusicPlayer from "../../components/MusicPlayer/MusicPlayer";
-
+import CommunityTrends from "../../components/CommunityTrends/CommunityTrends";
 import "./Home.css";
 
 import { gsap } from "gsap";
@@ -50,7 +50,7 @@ const Home = () => {
             </button>
           </div>
 
-          <div className="news-article">
+          {/*<div className="news-article">
             <div className="news-article-title">
               <p className="primary">
                 Lanzamiento: Nueva función <br /> de colaboración musical
@@ -60,7 +60,7 @@ const Home = () => {
               <p>Nuevo</p>
               <p>Comunidad</p>
             </div>
-          </div>
+          </div>*/}
         </section>
 
         <section className="site-intro">
@@ -75,7 +75,7 @@ const Home = () => {
           <div className="intro-col">
             <p>La revolución musical está aquí.</p>
             <h2>
-              Tu Estudio <br /> En La <span className="color-accent">Nube</span>
+              Tu Estudio <br /> A un <span className="color-accent">Click</span>
             </h2>
             <h3>Convierte tus ideas en canciones profesionales en minutos.</h3>
             <p>
@@ -133,7 +133,7 @@ const Home = () => {
 
           <h1>
             De la Idea <br />
-            Al Éxito
+            Al Exito
           </h1>
 
           <div className="tape">
@@ -175,6 +175,8 @@ const Home = () => {
           <div className="updates-page-link">
             <Link to="/trending">Ver Tendencias</Link>
           </div>
+
+          {/*<CommunityTrends />*/}
 
           <div className="articles-row">
             <div className="article">
