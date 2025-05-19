@@ -6,8 +6,8 @@ const MusicPlayer = () => {
   const songs = [
     {
       id: 1,
-      title: "Dreamland",
-      artist: "By Balanced Pitch",
+      title: "The Jaws of Koyso",
+      artist: "By Koyso",
       diskArt: "/songs/dreamland.png",
       mp3: "/songs/dreamland.mp3",
     },
