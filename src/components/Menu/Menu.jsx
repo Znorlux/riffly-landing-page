@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import "./Menu.css";
 
@@ -241,6 +241,22 @@ const Menu = ({ isOpen, setIsOpen, isDark }) => {
                   Contacto
                 </Link>
               </p>
+            </div>
+            <div className="auth-buttons-row" ref={addToMenuItemsRef}>
+              <Link
+                to="/login"
+                onClick={handleNavigation("/login")}
+                className="auth-btn"
+              >
+                Iniciar sesión
+              </Link>
+              <Link
+                to="/register"
+                onClick={handleNavigation("/register")}
+                className="auth-btn register"
+              >
+                Registrarse
+              </Link>
             </div>
           </div>
 

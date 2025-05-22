@@ -160,6 +160,11 @@
   height: 120px;
   line-height: 120px;
   cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-item p a:hover {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .menu-footer {
@@ -174,9 +179,53 @@
   gap: 0.5em;
 }
 
+.auth-buttons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.auth-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  font-family: "FK Screamer";
+  font-size: 42px;
+  font-weight: 300;
+  padding: 0.3em 1.5em;
+  border: 2px solid var(--color-dark);
+  border-radius: 6px;
+  background: transparent;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-btn:hover {
+  background: var(--color-dark);
+  color: var(--color-accent);
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+.auth-btn.register {
+  background: var(--color-dark);
+  color: var(--color-accent);
+  border: 2px solid var(--color-dark);
+}
+
+.auth-btn.register:hover {
+  background: transparent;
+  color: var(--color-dark);
+}
+
+/* Animation: keep hidden by default */
 .menu-close,
 .menu-item,
-.menu-footer {
+.menu-footer,
+.auth-buttons-row {
   opacity: 0;
   will-change: opacity;
 }
@@ -189,5 +238,48 @@
   .menu-footer {
     width: 90%;
     text-align: center;
+  }
+
+  .menu-items {
+    gap: 0.5em;
+  }
+
+  .menu-item {
+    height: 60px;
+  }
+
+  .menu-item p a {
+    font-size: 38px;
+    height: 48px;
+    line-height: 48px;
+    top: 0;
+  }
+
+  .menu-item p {
+    line-height: 48px;
+    height: 48px;
+  }
+
+  .auth-buttons-row {
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    width: 80%;
+    align-items: stretch;
+  }
+  .auth-btn {
+    font-size: 30px;
+    padding: 0.1em 1.5em;
+    width: 100%;
+    min-width: 0;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .menu-bar a,
+  .menu-bar p {
+    font-size: 28px;
+    padding: 0.3em 0.2em;
   }
 }
