@@ -243,20 +243,15 @@ const Menu = ({ isOpen, setIsOpen, isDark }) => {
               </p>
             </div>
             <div className="auth-buttons-row" ref={addToMenuItemsRef}>
-              <Link
-                to="/login"
-                onClick={handleNavigation("/login")}
-                className="auth-btn"
-              >
+              <a href="http://localhost:4200/login" className="auth-btn">
                 Iniciar sesión
-              </Link>
-              <Link
-                to="/register"
-                onClick={handleNavigation("/register")}
+              </a>
+              <a
+                href="http://localhost:4200/register"
                 className="auth-btn register"
               >
                 Registrarse
-              </Link>
+              </a>
             </div>
           </div>
 
