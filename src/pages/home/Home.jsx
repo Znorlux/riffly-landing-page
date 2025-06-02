@@ -39,7 +39,10 @@ const Home = () => {
       <div className="page home">
         <section className="hero">
           <div className="hero-img">
-            <ParallaxImage src="/home/hero.jpg" alt="Músicos creando con IA" />
+            <ParallaxImage
+              src="/home/hero-robot.png"
+              alt="Músicos creando con IA"
+            />
           </div>
 
           <div className="hero-header">

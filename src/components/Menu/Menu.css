@@ -22,7 +22,7 @@
 .menu-bar p {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-dark);
   font-family: "FK Screamer";
   font-size: 48px;
   font-weight: 300;
@@ -229,7 +229,12 @@
   opacity: 0;
   will-change: opacity;
 }
-
+@media (max-width: 1600px) {
+  .menu-bar a,
+  .menu-bar p {
+    color: var(--color-accent);
+  }
+}
 @media (max-width: 900px) {
   .menu-col:nth-child(1) {
     display: none;
@@ -238,6 +243,10 @@
   .menu-footer {
     width: 90%;
     text-align: center;
+  }
+  .menu-bar a,
+  .menu-bar p {
+    color: var(--color-accent);
   }
 
   .menu-items {
