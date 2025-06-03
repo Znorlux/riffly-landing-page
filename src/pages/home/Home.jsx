@@ -1,15 +1,14 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router";
-import Footer from "../../components/Footer/Footer";
-import Transition from "../../components/transition/Transition";
-import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
-import MusicPlayer from "../../components/MusicPlayer/MusicPlayer";
-import CommunityTrends from "../../components/CommunityTrends/CommunityTrends";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import Footer from "@/components/Footer/Footer";
+import Transition from "@/components/transition/Transition";
+import ParallaxImage from "@/components/ParallaxImage/ParallaxImage";
+import MusicPlayer from "@/components/MusicPlayer/MusicPlayer";
 import "./Home.css";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ReactLenis, useLenis } from "lenis/react";
+import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 const Home = () => {
   const lenis = useLenis(({ scroll }) => {});

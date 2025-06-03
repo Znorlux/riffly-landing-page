@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router";
-import Footer from "../../components/Footer/Footer";
-import Transition from "../../components/transition/Transition";
-import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
+import { Link } from "react-router-dom";
+import Footer from "@/components/Footer/Footer";
+import Transition from "@/components/transition/Transition";
+import ParallaxImage from "@/components/ParallaxImage/ParallaxImage";
+import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 import "./About.css";
-
-import { ReactLenis, useLenis } from "lenis/react";
 
 const About = () => {
   const lenis = useLenis(({ scroll }) => {});
@@ -25,7 +24,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-hero-info">
-            <p>Championing Artists’ Rights and Defining Ethical AI Standards</p>
+            <p>Championing Artists' Rights and Defining Ethical AI Standards</p>
           </div>
         </section>
         <section className="about-us">

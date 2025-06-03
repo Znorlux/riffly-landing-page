@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router";
-import Footer from "../../components/Footer/Footer";
-import Transition from "../../components/transition/Transition";
-import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
+import { Link } from "react-router-dom";
+import Footer from "@/components/Footer/Footer";
+import Transition from "@/components/transition/Transition";
+import ParallaxImage from "@/components/ParallaxImage/ParallaxImage";
+import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 import "./Updates.css";
-
-import { ReactLenis, useLenis } from "lenis/react";
 
 const Updates = () => {
   const lenis = useLenis(({ scroll }) => {});

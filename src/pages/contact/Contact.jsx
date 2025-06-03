@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router";
-import Footer from "../../components/Footer/Footer";
-import Transition from "../../components/transition/Transition";
-import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
+import { Link } from "react-router-dom";
+import Footer from "@/components/Footer/Footer";
+import Transition from "@/components/transition/Transition";
+import ParallaxImage from "@/components/ParallaxImage/ParallaxImage";
+import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 import "./Contact.css";
-
-import { ReactLenis, useLenis } from "lenis/react";
 
 const Contact = () => {
   const lenis = useLenis(({ scroll }) => {});
@@ -101,7 +100,7 @@ const Contact = () => {
                 Future of Music
               </h2>
               <p className="primary">
-                Let’s connect to redefine creativity in the age of AI.
+                Let's connect to redefine creativity in the age of AI.
               </p>
             </div>
 
