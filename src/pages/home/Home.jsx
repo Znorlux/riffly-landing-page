@@ -191,8 +191,8 @@ const Home = () => {
               </div>
               <div className="article-title">
                 <h3>
-                  "Summer Nights" de @laura_music alcanza 10,000 reproducciones
-                  en solo 48 horas
+                  &quot;Summer Nights&quot; de @laura_music alcanza 10,000
+                  reproducciones en solo 48 horas
                 </h3>
               </div>
               <div className="article-link">
